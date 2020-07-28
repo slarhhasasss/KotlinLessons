@@ -46,7 +46,7 @@ class Fridge(_maxWeight: Int) {
 
 
 interface FridgeFunctions {
-
+    //переменные в интерфейсе
     val fridge : Fridge
 
     fun printModel()
@@ -55,9 +55,6 @@ interface FridgeFunctions {
     fun printDeluxeFridgeInfo() {
         fridge.printFridgeInfo()
     }
-
-    //переменные в интерфейсе
-
 }
 
 interface FridgeShops {
